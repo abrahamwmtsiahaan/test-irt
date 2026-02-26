@@ -1,0 +1,61 @@
+# --- Virtual Environments ---
+# Direktori environment standar
+.venv/
+venv/
+ENV/
+env/
+# Environment dari tools lain
+bin/
+include/
+lib/
+share/
+pyvenv.cfg
+pip-selfcheck.json
+
+# --- Python Cache ---
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+# C extensions
+*.so
+
+# --- Packaging & Distribution ---
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- Testing & Coverage ---
+.target/
+.cache/
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# --- IDE & OS ---
+# JetBrains (PyCharm)
+.idea/
+# VS Code
+.vscode/
+# MacOS
+.DS_Store
